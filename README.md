@@ -1,5 +1,7 @@
-# yelp-rails
+# Ang.ry
 ------------
+
+Ang.ry is a website that allows users to leave only negative reviews of restaurants local to them.
 ## user stories
 
 ```
