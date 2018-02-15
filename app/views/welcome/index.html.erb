@@ -8,7 +8,7 @@
     <div class="row">
     <% @restaurants.each do |restaurant| %>
       <div class="col-sm-4">
-        <a href="/restaurants/<%=restaurant.id%>">
+        <a href="/restaurants/<%=restaurant.id%>/ratings">
         <div class="restaurant-box">
           <% if restaurant.img != "" %>
             <div class="restaurant-image-box" style="background: url(<%=restaurant.img %>)50% 50% no-repeat;">
