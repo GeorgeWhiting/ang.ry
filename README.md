@@ -11,9 +11,9 @@ Rails was completely new to all four of us, and its difficult to get used to the
 
 ## Set Up
 ```
-bundle install
-rails db:migrate
-rackup
+bundle install       # Installs the dependencies
+rails db:migrate     # To migrate the db 
+rackup               # To run the server
 ```
 Then navigate to localhost:9292
 
