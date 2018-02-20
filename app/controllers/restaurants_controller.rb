@@ -25,9 +25,9 @@ class RestaurantsController < ApplicationController
     @restaurant = Restaurant.find(params[:id])
     if @restaurant.did_i_make_this?(current_user.id)
       @restaurant.destroy()
-      redirect_to restaurants_path
+      redirect_to '/' #restaurants_path
     else
-      redirect_to restaurant_path(@restaurant.id)
+      redirect_to '/' #restaurant_path(@restaurant.id)
     end
 
   end
