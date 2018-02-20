@@ -99,6 +99,19 @@ a:link {
   font-weight: bold;
 }
 
+.user-title p {
+  margin-top: 5px;
+}
+
+.user-box > ul > li > a {
+  color: black;
+  font-weight: 450;
+}
+
+.user-box > ul > li > a:hover {
+  opacity: 0.5;
+}
+
 .banner-pic {
   /*display: inline;*/
   width: 15%;

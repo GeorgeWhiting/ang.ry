@@ -18,7 +18,7 @@
         </div>
           <div class="col-sm-8" align="center">
             <a href="/" class="main-link">
-              <div><h2 class="title">Ange.ry</h2><%= image_tag("banner.png", :class => "banner-pic")%></div>
+              <div><h2 class="title">Ang.ry</h2><%= image_tag("banner.png", :class => "banner-pic")%></div>
             </a>
           </div>
         <div class="col-sm-2">
@@ -38,6 +38,7 @@
             <img src="<%= @current_user.userpic %>"></a></div>
               <li><%= link_to "Log out", logout_path, method: :delete %></li>
               <li><a href="/users/<%= current_user.id%>">My Reviews</a></li>
+              <li><%= link_to "New Restaurant", new_restaurant_path %></li>
             <% else %>
               <li><%= link_to "Sign up", new_user_path %></li>
               <li><%= link_to "Log in", sessions_new_path %></li>
