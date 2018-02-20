@@ -19,20 +19,13 @@ Then navigate to localhost:9292
 
 
 ## Testing
-
-We opted to set up our own testing environment, rather than using the one given to us by rails. We looked into the rails testing framework but we felt more comfortable using one we have worked with before. Our choice of test suite was rspec with capybara for front end testing. Most of the testing was done on the user interface, with some backend tests covering model behaviour.
-
-
-Before running the tests, you have to set up the
-
 ```
 bundle install                       # Install the dependencies
 bin/rails db:migrate RAILS_ENV=test  # Migrate the test database
 rspec                                # Run the tests
 ```
-This migrates the test database so that the tests can be run.
-This runs the tests
 
+We opted to set up our own testing environment, rather than using the one given to us by rails. We looked into the rails testing framework but we felt more comfortable using one we have worked with before. Our choice of test suite was rspec with capybara for front end testing. Most of the testing was done on the user interface, with some backend tests covering model behaviour.
 
 ## User Stories
 
