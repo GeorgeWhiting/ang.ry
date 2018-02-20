@@ -3,6 +3,8 @@
 
 Ang.ry is a website that allows users to leave only negative reviews of restaurants local to them. A user can create a profile with an avatar, and upload a restaurant to be berated.
 
+[UEgif](https://github.com/GeorgeWhiting/ange.ry/blob/master/angry_gif.gif)
+
 ## Overview
 
 The project was our first time using rails. Because of this we opted not to use scaffolding, instead got used to the nature of building a rails app. We decided to go with the idea of a negative review website, as it gave the project more personality than just recreating a yelp clone. HTML and CSS was used for the front end, with bootstrap as HTML scaffolding.
