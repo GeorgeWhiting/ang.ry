@@ -3,7 +3,7 @@
 
 Ang.ry is a website that allows users to leave only negative reviews of restaurants local to them. A user can create a profile with an avatar, and upload a restaurant to be berated.
 
-[UEgif](https://github.com/GeorgeWhiting/ange.ry/blob/master/angry_gif.gif)
+![UEgif](https://github.com/GeorgeWhiting/ange.ry/blob/master/angry_gif.gif)
 
 ## Overview
 
