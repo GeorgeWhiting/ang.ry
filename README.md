@@ -10,7 +10,12 @@ The project was our first time using rails. Because of this we opted not to use 
 Rails was completely new to all four of us, and its difficult to get used to the rails 'magic'. In previous projects, there is more flexibility in how a project can be set up, tested etc. Using rails theres a very clear structure that has to be followed. We were also restricted by only having 5 days to create the app, which limited how many features could be added. This also prohibited improvements to design and UI.
 
 ## Set Up
-
+```
+bundle install
+rails db:migrate
+rackup
+```
+Then navigate to localhost:9292
 
 
 ## Testing
