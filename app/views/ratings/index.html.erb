@@ -3,8 +3,9 @@
   </div>
   <div class="col-sm-8">
 <h1 align="center"><%= pluralize(@ratings.count, "Review") %></h1>
+  <p><%= link_to 'New', new_restaurant_rating_path %></p>
   <div class="row">
-<% @ratings.each do |rating| %>
+ <% @ratings.each do |rating| %>
   <div class="col-sm-4">
     <% user = User.find(rating.user_id) %>
     <strong>Review by: <%= user.username %></strong> <br>
