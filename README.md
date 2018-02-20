@@ -26,12 +26,11 @@ We opted to set up our own testing environment, rather than using the one given 
 Before running the tests, you have to set up the
 
 ```
-bin/rails db:migrate RAILS_ENV=test
+bundle install                       # Install the dependencies
+bin/rails db:migrate RAILS_ENV=test  # Migrate the test database
+rspec                                # Run the tests
 ```
 This migrates the test database so that the tests can be run.
-```
-rspec
-```
 This runs the tests
 
 
